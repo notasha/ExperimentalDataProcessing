@@ -2,9 +2,10 @@ import numpy as np
 
 def running_mean(measurements, window_size):
     N = measurements.shape[0]
-    first_M = np.mean(measurements[:round((window_size - 1) / 2)])
-    last_M = np.mean(measurements[-round((window_size - 1) / 2):])
-    print(first_M, last_M)
+    # fill first (M-1)/2 elements
+    m = round((window_size - 1) / 2)
+    first_M = np.mean(measurements[:m])
+    last_M = np.mean(measurements[-m:])
 
     Xrm = np.empty(N)
     Xrm[:3] = np.ones(3) * first_M
