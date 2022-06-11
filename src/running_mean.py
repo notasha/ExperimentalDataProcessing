@@ -1,5 +1,11 @@
 import numpy as np
 
+def get_windiw_size(alpha):
+    return int((2 - alpha)/alpha)
+
+def get_running_mean_sigma2(measure_sigma2, window_size):
+    return measure_sigma2 / window_size
+
 def running_mean(measurements, window_size):
     N = measurements.shape[0]
     # fill first (M-1)/2 elements
