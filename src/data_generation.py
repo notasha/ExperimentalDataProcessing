@@ -22,10 +22,8 @@ def get_measurements(trajectory, sigma2):
     SigmaH = np.sqrt(sigma2)
     # Create 1xN array of normally distributed random noise with zero math. expectation and variance SigmaSqH
     h = np.random.normal(0, SigmaH, N)
-    # Create an array of measurements of measurements
-    Z = np.empty(N)
-    for i in range(N):
-        Z[i] = trajectory[i-1] + h[i]
+    # Create an array of measurements
+    Z = trajectory + h
     return Z, h
 
 def get_true_trajectory_with_random_acceleration(init_position, init_velocity, time_step, points_num,
