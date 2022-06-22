@@ -46,8 +46,14 @@ The goal is to implement exponential and running mean to compare the errors and 
 
 The objective is to determine conditions for which methods of running and exponential mean provide effective solution and conditions under which they break down.
 
-### Exercise 3
-### Exercise 4
+### Exercise 3 | 3D surface filtration using forward-backward smoothing
+
+The goal of this task is to reconstruct the 3D surface on the basis noisy measurements of the surface and in conditions of uncertainty.
+
+### Exercise 4 | Tracking of a moving object which trajectory is disturbed by random acceleration
+
+The objective is to develop standard Kalman filter for tracking a moving object which trajectory is disturbed by random acceleration.
+
 ### Exercise 5
 ### Exercise 6
 ### Exercise 7
