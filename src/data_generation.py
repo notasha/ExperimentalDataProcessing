@@ -35,10 +35,10 @@ def get_true_trajectory_with_random_acceleration(init_position, init_velocity, t
     V = np.empty(points_num)
     V[0] = init_velocity  # initial velocity
     for i in range(1, points_num):
-        V[i] = V[i - 1] + a[i - 1] * time_step
+        V[i] = V[i-1] + a[i-1] * time_step
     # Coordinate
     X = np.empty(points_num)
     X[0] = init_position  # initial coordinate
     for i in range(1, points_num):
         X[i] = X[i-1] + V[i-1] * time_step + (a[i-1] * time_step**2) / 2
-    return X
+    return X, V
