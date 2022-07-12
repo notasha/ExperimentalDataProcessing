@@ -1,4 +1,4 @@
-# Experimental data processing
+# Experimental data processing 
 
 Exercises on data processing for control and forecasting approaches completed during the Skoltech course.
 
@@ -38,23 +38,26 @@ Nonlinear state-space models that are commonly used for problems solution of con
 
 ## Tasks outline
 
-### Exercise 1 | Comparison of the exponential and running mean for random walk model
+### [Exercise 1 | Comparison of the exponential and running mean for random walk model](https://colab.research.google.com/drive/1B_eD5DMkFFIH4Pp2GyfjUtVevAe-1UmY#scrollTo=VLJ74DrC6Wqj)
 
 The goal is to implement exponential and running mean to compare the errors and choose the most effective quasi-optimal estimation method in conditions of uncertainty.
 
-### Exercise 2 | Backward exponential smoothing vs running mean
+### [Exercise 2 | Backward exponential smoothing vs running mean](https://colab.research.google.com/drive/1B_eD5DMkFFIH4Pp2GyfjUtVevAe-1UmY#scrollTo=xmGAluFB4CtL)
 
 The objective is to determine conditions for which methods of running and exponential mean provide effective solution and conditions under which they break down.
 
-### Exercise 3 | 3D surface filtration using forward-backward smoothing
+### [Exercise 3 | 3D surface filtration using forward-backward smoothing](https://colab.research.google.com/drive/1B_eD5DMkFFIH4Pp2GyfjUtVevAe-1UmY#scrollTo=pd-UPMd3_erh)
 
 The goal of this task is to reconstruct the 3D surface on the basis noisy measurements of the surface and in conditions of uncertainty.
 
-### Exercise 4 | Tracking of a moving object which trajectory is disturbed by random acceleration
+### [Exercise 4 | Tracking of a moving object which trajectory is disturbed by random acceleration](https://colab.research.google.com/drive/1L3JPUu9EteRQEaIEXC7zDdbbu55x5_3d#scrollTo=VLJ74DrC6Wqj)
 
 The objective is to develop standard Kalman filter for tracking a moving object which trajectory is disturbed by random acceleration.
 
-### Exercise 5
+### [Exercise 5 | Development of optimal smoothing to increase the estimation accuracy](https://colab.research.google.com/drive/1L3JPUu9EteRQEaIEXC7zDdbbu55x5_3d#scrollTo=M2ibpeTLoChV&line=1&uniqifier=1)
+
+The goal is to develop algorithms that improve Kalman filter estimates, which is of prime importance for many practical control and forecasting problems.
+
 ### Exercise 6
 ### Exercise 7
 ### Exercise 8
